@@ -10,13 +10,40 @@
     margin-right: auto;
     padding-bottom: 25px
 }
+
 input[type="text"] {
     display: block;
     margin: 0 auto;
     width: 400px;
     height: 30px;
-    border-style: rounded;
+    border-radius: 15px;
 }
+
 body {
     background-image: url(https://i.redd.it/v69p0yzh08331.png);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+#nav {
+    padding: 15px;
+    font-size: 15px;
+}
+
+li a {
+    padding: 0px 15px 0px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    text-decoration: underline;
 }
