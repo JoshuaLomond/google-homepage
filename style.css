@@ -18,9 +18,11 @@ body {
 input[type="text"] {
     display: block;
     margin: 0 auto;
-    width: 400px;
-    height: 30px;
-    border-radius: 15px;
+    width: 500px;
+    height: 40px;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 1px;
 }
 
 ul {
