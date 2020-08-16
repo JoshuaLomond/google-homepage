@@ -91,6 +91,6 @@ p {
     font-size: 13px;
 }
 
-input.middle:focus {
-    outline-width: 0;
+input:focus, textarea:focus select:focus {
+    outline: none;
 }
