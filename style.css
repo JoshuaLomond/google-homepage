@@ -24,6 +24,7 @@ input[type="text"] {
     border-style: solid;
     border-radius: 30px;
     border-width: 1px;
+    padding: 5px;
 }
 
 ul {
@@ -68,4 +69,6 @@ li a:hover {
     border-style: solid;
     border-color: #C9C9C9;
     border-width: 1px 0px 0px 0px;
+    left: 0px;
+    right: 0px;
 }
