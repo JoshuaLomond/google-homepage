@@ -37,14 +37,14 @@ ul {
 }
 
 #nav {
-    padding: 15px;
+    padding: 25px 15px;
     font-size: 15px;
 }
 
 li a {
     padding: 0px 15px 0px 15px;
     text-decoration: none;
-    color: black;
+    color: gray;
 }
 
 li a:hover {
@@ -71,6 +71,7 @@ li a:hover {
     border-style: solid;
     border-color: #C9C9C9;
     border-width: 1px 0px 0px 0px;
+    color: black;
 }
 
 .rightpadding {
@@ -85,3 +86,6 @@ input[type="submit"] {
     border-radius: 5px;
     background-color: #F3F3F3;
 }
+
+p {
+    font-size: 13px;
