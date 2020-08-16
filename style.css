@@ -8,6 +8,7 @@ body {
     width: 50%;
     margin: auto;
     padding-top: 175px;
+    text-align: center;
 }
 
 .center-img {
@@ -26,7 +27,6 @@ input[type="text"] {
     border-style: solid;
     border-radius: 30px;
     border-width: 1px;
-    padding: 5px;
 }
 
 ul {
@@ -75,4 +75,13 @@ li a:hover {
 
 .rightpadding {
     padding-right: 15px;
+}
+
+input[type="submit"] {
+    margin: 25px 10px;
+    padding: 10px 25px;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: #F3F3F3;
 }
